@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+}
+
+.hero {
+    padding: 20px;
+    border-bottom: 3px solid gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile {
+    max-width: 15%;
+}
+
+.profile img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}

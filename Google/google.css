@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+h1 {
+    font-size: 89px;
+    font-family: Merriweather;
+    padding-bottom: 2rem;
+    padding: 0px;
+    padding-bottom: 2rem;
+    color: white;
+
+}
+ 
+body {
+    background-image: url(/img/galaxy-space-fantasy-science-fiction-ci-1920x1200.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;  
+    text-align: center;
+    padding-top: 160px;
+}
+
+input {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    width: 36rem;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.search {
+    position: relative;
+    right: 240px;
+    bottom: 36px;
+    display: inline;
+}
+
+.voice {
+    position: relative;
+    left: 230px;
+    bottom: 36px;
+    display: inline;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+.full {
+    border: 1pxsolid black;
+    width: 50px;
+    height: 200px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    color: white;
+    position: absolute;
+    top: 22px;
+    right: 100px;
+  }
+  
+  li {
+    margin-right: 10px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 2px);
+    grid-template-rows: repeat(3, 2px);
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+    position: absolute;
+    top: 22px;
+    right: 70px;
+
+  }
+  
+  .dot {
+    width:4px;
+    height:4px;
+    background-color: #fff;
+    border-radius: 50%;
+  }
+
+  .circle {
+   background-color: blue;
+    width: 32px;
+    height: 33px;
+    border-radius: 40px;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+
+  }
+
+  .circle p {
+    color: #fff;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p.nasa{
+    font-family: Roboto;
+    color: white;
+    position: absolute;
+    left: 15px;
+    bottom: 25px;
+    text-decoration: underline;
+  }
+
+  p.pencil {
+    color: white;
+    transform: scaleX(-1);
+    position: absolute;
+    right: 24px;
+    bottom: 20px  ;
+  }
+
+.f, .s, .t {
+  background-color: white;
+  border-radius: 4000px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 220px;
+  right: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  font-weight:900;
+  color: rgb(27, 26, 26);
+
+}
+
+.s {
+  position: absolute;
+  right: 795px;
+}
+
+.t{
+  position: absolute;
+  right: 690px;
+}
+/* 
+a.around {
+  border: 1px solid white;
+  width: 100px;
+  height: 110px;
+  position: absolute;
+  bottom: 180px;
+  right: 878px;
+  border-radius: 9px;
+  background-color: black;
+  opacity: 0.2;
+  
+}
+
+ */
